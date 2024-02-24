@@ -27,7 +27,7 @@ export default {
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
           </button>
-          <div id="mobile-menu" :class="{'hidden': !isMenuOpen }" class=" bg-slate-800 space-y-1 px-2 pb-3 pt-2 absolute right-1 top-28 ">
+          <div id="mobile-menu" :class="{'hidden': !isMenuOpen }" class=" bg-slate-800 space-y-1 px-2 pb-3 pt-2 absolute right-0 top-28 ">
             <a target="_blank" href="https://www.youtube.com/" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
               aria-current="page">YouTube</a>
             <a target="_blank" href="https://www.google.com.tw/?hl=zh_TW"
@@ -45,12 +45,12 @@ export default {
             class=" text-white p-2 lg:mt-4">Gmail</a>
         </div>
       </div>
-      <div class="grow bg-amber-100 flex items-center w-full justify-center">
+      <div class="grow bg-zinc-600 flex items-center w-full justify-center">
         <div class="content lg:w-2/3 lg:h-3/5 md:h-4/5 h-full w-full md:w-4/5">
           <div class="h-full flex md:gap-2 lg:flex-row flex-col md:flex-wrap md:flex-row lg:flex-nowrap">
             <div class="lg:w-1/3 h-full bg-zinc-300 w-full md:h-1/2 lg:h-full"></div>
             <div class="lg:w-1/3 h-full bg-zinc-200 w-full md:flex-1 md:h-1/2 lg:h-full"></div>
-            <div class="lg:w-1/3 h-full bg-zinc-500 w-full md:flex-1 md:h-1/2 lg:h-full"></div>
+            <div class="lg:w-1/3 h-full bg-zinc-300 w-full md:flex-1 md:h-1/2 lg:h-full"></div>
           </div>
         </div>
       </div>
