@@ -54,15 +54,15 @@ export default {
           class=" text-white p-2 lg:mt-4">Gmail</a>
       </div>
     </div>
-    <div class="grow bg-zinc-600 flex items-center w-full justify-center">
-      <div class="content lg:w-2/3 lg:h-3/5 md:h-4/5 h-full w-full md:w-4/5">
+    <div class="grow bg-zinc-600 flex items-center w-full justify-center h-full">
+      <div class="content lg:w-2/3 lg:h-3/5 md:h-4/5 h-4/5 w-full md:w-4/5">
         <div class="h-full flex md:gap-1 lg:flex-row flex-col md:flex-wrap md:flex-row lg:flex-nowrap">
           <!-- <div class="lg:w-1/3 h-full bg-zinc-300 w-full md:h-1/2 lg:h-full"></div>
           <div class="lg:w-1/3 h-full bg-zinc-200 w-full md:flex-1 md:h-1/2 lg:h-full"></div>
           <div class="lg:w-1/3 h-full bg-zinc-300 w-full md:flex-1 md:h-1/2 lg:h-full"></div> -->
-          <img :src="myCat" class="lg:w-1/3 sm:h-1/2  bg-zinc-300 w-full md:h-1/2 lg:h-full">
-          <img :src="myCat2" class="lg:w-1/3 h-1/2 bg-zinc-200 w-full md:flex-1 md:h-1/2 lg:h-full">
-          <img :src="myCat3" class="lg:w-1/3 h-1/2 bg-zinc-200 w-full md:flex-1 md:h-1/2 lg:h-full">
+          <img :src="myCat" class="lg:w-1/3 h-1/3 bg-zinc-300 w-full md:h-1/2 lg:h-full">
+          <img :src="myCat2" class="lg:w-1/3 h-1/3 bg-zinc-200 md:flex-1 md:h-1/2 lg:h-full">
+          <img :src="myCat3" class="lg:w-1/3 h-1/3 bg-zinc-200 md:flex-1 md:h-1/2 lg:h-full">
         </div>
       </div>
     </div>
